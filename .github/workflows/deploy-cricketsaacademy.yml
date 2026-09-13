@@ -33,7 +33,8 @@
 #   CRICKETSA_FTP_SERVER    centenarynetworks.com
 #   CRICKETSA_FTP_USERNAME  the Xneelo SFTP user
 #   CRICKETSA_FTP_PASSWORD  its password
-# Set them with:  printf '%s' 'value' | gh secret set CRICKETSA_FTP_USERNAME
+# Set them with:  gh secret set CRICKETSA_FTP_USERNAME -R sibusis-code/cricketSA   (it prompts for the value)
+# Repository: https://github.com/sibusis-code/cricketSA — secrets set there 13 Sep 2026.
 #
 # Ask Xneelo for an FTP user whose home is public_html/cricketsaacademy if the panel
 # allows it. Then the credential in this repository physically cannot reach the
