@@ -1,0 +1,17 @@
+.vscode/
+copy-dont-touch.html
+
+# Development database, client notes and the local config: never in git.
+.claude/
+_drafts/
+lib/config.local.php
+*.sqlite
+*.sqlite-journal
+private/
+
+# Cricket South Africa's logo at full size (1200px, the lockup with lettering and
+# the icon on its own), copied from ../cricketsainterview/public/assets. Kept on
+# disk as the source the palette and the nav mark were taken from, and out of git
+# because the deploy mirrors tracked files into the web root. The mark the site
+# actually uses is cricketsa-logo.png, which IS tracked.
+_brand-source/
