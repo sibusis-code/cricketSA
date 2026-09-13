@@ -100,10 +100,10 @@ Must be supplied or confirmed before the site is announced:
 
 ## Standing it up
 
-Nothing below has been done. Each step needs a credential or a decision.
+Step 1 is done; each step after it needs a credential or a decision.
 
-1. **GitHub repository** — for example `kgomotso-Bolide/cricketsa.academy` — and push
-   this repo's `xneelo-backend` branch (not `main`; see `DEPLOY-XNEELO.md`).
+1. **GitHub repository** — done 13 Sep 2026: <https://github.com/sibusis-code/cricketSA>,
+   branch `xneelo-backend` (its default; there is no `main` — see `DEPLOY-XNEELO.md`).
 2. **Repository secrets** — `CRICKETSA_FTP_SERVER`, `CRICKETSA_FTP_USERNAME`,
    `CRICKETSA_FTP_PASSWORD`.
 3. **Server folder** — `public_html/cricketsaacademy` on Xneelo.
